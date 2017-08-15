@@ -1,4 +1,47 @@
 {
-    "name": "BifrostAPI",
-    "isWorking": 1
+    "hotels": [
+        {
+            "id": 1,
+            "name": "Radisson Blu",
+            "floors": [
+                {
+                    "floorNumber": 0,
+                    "rooms": [
+                        {
+                            "id": 1,
+                            "roomNumber": "001",
+                            "currentTemperature": -15,
+                            "targetTemperature": 24
+                        },
+                        {
+                            "id": 2,
+                            "roomNumber": "002",
+                            "currentTemperature": 50,
+                            "targetTemperature": 24
+                        }
+            ]
+        },
+                {
+                    "floorNumber": 1,
+                    "rooms": [
+                        {
+                            "id": 3,
+                            "roomNumber": "101",
+                            "currentTemperature": -11,
+                            "targetTemperature": 24
+                        },
+                        {
+                            "id": 4,
+                            "roomNumber": "102",
+                            "currentTemperature": 51,
+                            "targetTemperature": 24
+                        }
+            ]
+        }
+    ]
+    }
+],
+    "profile": {
+        "name": "typicode"
+    }
 }
